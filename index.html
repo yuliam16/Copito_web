@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Copito Web</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Copito Web</h1>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <nav class="nav-bar">
+      <a href="Copito_web.html"></a>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+        <li><a href="#trabajos">Trabajos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li> <a href="#copo-preguntas">Copo preguntas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <h2>Bienvenid@s a mi Biografia</h2>
+  
+  </section>
+
+  <section id="acerca-de-mi">
+    <h2>Acerca de mí</h2>
+    <div class="acerca-de-mi-contenido">
+      <div class="texto">
+        <p>Hola, mi nombre es Fresita. Soy una french poodle. Me encanta jugar y hago parte de una familia. Tengo 13 años, nací en Colombia y vivo en Bogota. Me gusta salir a pasear, dormir y jugar.</p>
+      </div>
+      <div class="foto">
+        <img src="img/Mi foto.jpeg" alt="Mi Foto">
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section id="trabajos">
+    <h2>Trabajos</h2>
+    <h3>Jugar, Comer y Dormir</h3>
+    <p>Durante mi tiempo en la casa me gusta dormir cierta parte del dia y jugar con mis dueños. Mi función principal consistía en apoyar los procesos relacionados con la optimización de la estrategia empresarial, generando un impacto positivo en los indicadores clave del negocio desde la captación de usuarios hasta la desafiliación.</p>
+  </section>
+
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>Perseguir la pelota</li>
+      <li>Pasear con mis dueños.</li>
+      <li>Salir en caminatas con mis dueños.</li>
+      <div class="foto2">
+        <img src="img/yuliam.jpg" alt="mi foto" width="500px" height="400px"> 
+       </div>
+    </ul>
+  </section>
+  
+  <footer class="form-header">
+   <section id="copo-preguntas">
+      <h1>¡copo preguntas!</h1>
+      <p><em>¡Esperamos tu consulta!</em></p>
+
+       <form action="" method="get" class="formulario" id="form">
+         <div class="form-row">
+           <label for="nombre">Nombre</label>
+           <input id="nombre" name="nombre" type="text" />
+         </div>
+         <div class="form-row">
+             <label for="email">Email</label>
+             <input id="email" name="email" type="email" placeholder="topo@gmail.com" required  />
+         </div>
+         <div class="form-row">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+          </div>
+
+          <div class="form-row">
+            <button type="submit" id="submit">Enviar</button>
+          </div>
+          <p class="alertas" id="alertas"> </p>
+      </form>
+    </section> 
+  </footer>
+
+  <footer>
+    <a href="#forms.html"></a>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Encuéntrame en:</p>
+      <img src="img/instagram-icon.png" alt="Instagram" class="Icono-img"> Instagram: @copo26
+      <img src="img/telefono.png" alt="Celular" class="Icono-img"> Celular: 123456
+      <p>&copy; 2023 Copito Web</p>
+    </section>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

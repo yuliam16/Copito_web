@@ -1,0 +1,156 @@
+body {
+  background-color: aquamarine;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: rgb(255, 91, 91);
+  color: white;
+  padding: 1em;
+  text-align: center;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* Alinea los elementos al centro */
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.nav-bar {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-bar {
+      display: none;
+      text-align: center;
+      width: 100%; /* Ajusta el ancho al 100% para ocupar toda la pantalla */
+      background-color: #333; /* Color de fondo del menú */
+      position: absolute;
+      top: 60px; /* Altura del encabezado */
+  }
+
+  .nav-bar ul {
+      padding: 0;
+  }
+
+  .nav-bar ul li {
+      display: block;
+      margin: 0;
+      padding: 10px 0; /* Añade espacio alrededor de cada elemento de la lista */
+  }
+
+  .menu-toggle {
+      display: block;
+  }
+
+  .menu-open .nav-bar {
+      display: block;
+  }
+}
+
+#acerca-de-mi {
+  display: flex;
+  justify-content: left;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.acerca-de-mi-contenido {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.texto {
+  flex: 1;
+  max-width: 600px;
+  margin-right: 20px; /* Ajusta el margen derecho para separar el texto de la imagen */
+}
+
+.foto {
+  flex: 1; /* Ocupa el mismo espacio que el texto */
+}
+
+.foto img {
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  height: auto; /* Mantiene la proporción original */
+  max-width: 100px; /* Establece un ancho máximo */
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .foto {
+    margin-top: 20px; /* Añade espacio arriba de la imagen en dispositivos más pequeños */
+  }
+}
+
+.foto2 img {
+  width: 100%; /* Ajusta el ancho al 100% del contenedor */
+  height: auto; /* Mantiene la proporción original */
+  max-width: 100px; /* Establece un ancho máximo */
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .foto2 {
+    margin-top: 20px; /* Añade espacio arriba de la imagen en dispositivos más pequeños */
+  }
+}
+
+.Icono-img {
+  width: 20px; /* Establece el ancho deseado */
+  height: auto; /* Establece la altura deseada */
+  margin-right: 0px; /* Ajusta el margen derecho según tus preferencias */
+  max-width: 20px;
+  border-radius: 0px;
+}
+
+footer{
+  background-color: rgb(252, 80, 80);
+  color: white;
+  display:block;
+  
+}
+
+.form-header {
+  text-align: center;
+  background-color: rgb(102, 192, 102);
+  border: 1px solid #d6d9dc;
+  border-radius: 3px;
+
+  width: 80%;
+  margin: 10px auto;
+  padding: 50px;
+}
+
+.form-header h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
